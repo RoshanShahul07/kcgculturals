@@ -1,4 +1,4 @@
-/*--A Design by W3layouts 
+/*--A Design by W3layouts
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -43,11 +43,12 @@ body{
 /*-- banner --*/
 .w3-banner{
 	background: url(../images/Gallery/4.jpg) no-repeat 0px 0px;
-    background-size: cover; 
-	-webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
-    -ms-background-size: cover; 
+    background-size: cover;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    height:752px;
 }
 .jarallax {
     position: relative;
@@ -143,9 +144,9 @@ body{
     font-weight: 600;
 }
 .navbar-brand {
-   height: auto; 
-    padding: 0; 
-    font-size: 18px; 
+   height: auto;
+    padding: 0;
+    font-size: 18px;
     line-height: 20px;
 }
 .navbar-nav {
@@ -294,7 +295,7 @@ ul.dropdown-menu {
 }
 .more-button {
     margin: 4em 0 1em 0;
-}	
+}
 .more-button a:hover{
     background: #e709c1;
 	border: solid 2px #e709c1;
@@ -453,7 +454,8 @@ ul.dropdown-menu {
   float: left;
 }
 .rslides img {
-  height: auto;
+  height: 144px;
+  width:400px;
   border: 0;
 }
 .callbacks_tabs{
@@ -534,7 +536,7 @@ ul.social-slide li i.mac{
     background: #f5076c;
 	height: 12px;
     width: 12px;
-}	
+}
 ul.callbacks_tabs.callbacks2_tabs {
     top: 73%;
     left: 46%;
@@ -736,7 +738,7 @@ span.thr{
 }
 /* //services */
 
-/*-- stats --*/  
+/*-- stats --*/
 .stats {
        background: url(../images/mid2.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -755,7 +757,7 @@ span.thr{
 .stats-img i.fa {
     font-size: 2.5em;
     color: #d2d2d2;
-} 
+}
 .stats-agileinfo p{
     font-size: 14px;
     margin: 1.3em 0 0.8em;
@@ -822,7 +824,7 @@ section.portfolio-agileinfo .resp-tab-active {
 }
 section.portfolio-agileinfo .resp-tabs-container {
 	padding: 0px;
-	clear: left;	
+	clear: left;
 }
 section.portfolio-agileinfo .resp-tab-content {
 	display: none;
@@ -888,7 +890,7 @@ section.portfolio-agileinfo .nav-tabs > li > a {
 	border:none;
     background-color: #ffc107;
     font-weight: normal;
-}	
+}
 section.portfolio-agileinfo .nav-tabs {
     border-bottom: none;
 	margin: 0 0 40px;
@@ -905,7 +907,7 @@ section.portfolio-agileinfo .nav-tabs > li:nth-child(1) {
 section.portfolio-agileinfo .nav > li > a:hover,section.portfolio-agileinfo .nav > li > a:focus {
     color:#000;
 	background-color:transparent;
-}	
+}
 section.portfolio-agileinfo{
 	padding:5em 0;
 }
@@ -1002,20 +1004,20 @@ p.para-w3-agile {
 }
 @media (max-width:767px){
  .lit {
-   width: 90px; 
-   height: 120px; 
+   width: 90px;
+   height: 120px;
  }
 }
 @media (max-width:767px){
  .lit1 {
-   width: 80px; 
-   height: 120px; 
+   width: 80px;
+   height: 120px;
  }
 }
 @media (max-width:767px){
  .loot {
-   width: 200px; 
-   height: 200px; 
+   width: 200px;
+   height: 200px;
  }
 }
 @media(max-width:480px) {
@@ -1633,7 +1635,7 @@ ul.con_inner_text.midimg li {
 	bottom: 20px;
 	right: 2%;
 	overflow: hidden;
-	z-index: 999; 
+	z-index: 999;
 	width: 40px;
 	height: 40px;
 	border: none;
